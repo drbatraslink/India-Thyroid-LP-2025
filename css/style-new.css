@@ -454,7 +454,7 @@ a:hover{text-decoration: none;}
 /*==========================================*/
 /* What section css*/
 /*==========================================*/
-.treatment_all_comm_div.what_treatment_section{margin-top:50px}
+.treatment_all_comm_div.what_treatment_section{margin-top:40px}
 @media (max-width:600px){
 .treatment_all_comm_div.what_treatment_section{margin-top:30px}
 }
