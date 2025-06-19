@@ -15,31 +15,11 @@ header{background:#f6f7fb;position:fixed;top:0;z-index:1000!important}
 .terms-con-font-cls{color:#1a75ac}
 .carousel-indicators li{background-color:#2876a9;opacity:1}
 .carousel-indicators .active{background-color:#e41225;opacity:1}
-
-.head-main-tel {
-    padding: 6px 15px;
-    float: right;
-    color: #0c4679;
-    font-weight: 600;
-    line-height: normal;
-    font-size: 24px;
-    text-decoration: none;
-    margin-bottom: 0;
-    display: inline-flex;
-}
+.head-main-tel{padding:6px 15px;float:right;color:#0c4679;font-weight:600;line-height:normal;font-size:24px;text-decoration:none;margin-bottom:0;display:inline-flex}
 .head-main-tel:hover{color:#0c4679;text-decoration:none}
-
 @media (max-width:600px){
-      .head-main-tel {
-        font-size: 14px;
-        border: 1px solid #0c4679;
-        border-radius: 25px;
-        padding: 6px 8px;
-        color: #212121;
-        line-height: 21px;
-    }
+.head-main-tel{font-size:14px;border:1px solid #0c4679;border-radius:25px;padding:6px 8px;color:#212121;line-height:21px}
 }
-
 .treatment_all_heading_page{margin-bottom:10px;font-size:32px!important;color:#000;font-weight:600}
 @media (max-width:1440px){
 .treatment_all_heading_page{margin-bottom:8px;font-size:30px!important;color:#000;font-weight:600}
@@ -55,8 +35,8 @@ header{background:#f6f7fb;position:fixed;top:0;z-index:1000!important}
 }
 .owl-carousel .owl-item img{width:auto}
 .owl-carousel .owl-dots{display:none}
-a{color: #0c4679}
-a:hover{text-decoration: none;}
+a{color:#0c4679}
+a:hover{text-decoration:none}
 /*==========================================*/
 /* New Banner css*/
 /*==========================================*/
