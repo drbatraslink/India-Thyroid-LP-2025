@@ -15,17 +15,37 @@ header{background:#f6f7fb;position:fixed;top:0;z-index:1000!important}
 .terms-con-font-cls{color:#1a75ac}
 .carousel-indicators li{background-color:#2876a9;opacity:1}
 .carousel-indicators .active{background-color:#e41225;opacity:1}
-.head-main-tel{color:#0c4679;font-weight:700;text-decoration:none}
-.head-main-tel:hover{color:#1f83c5;text-decoration:none}
-.headerno-cls{font-size:30px;color:#0c4679;margin-bottom:0}
+
+.head-main-tel {
+    padding: 6px 15px;
+    float: right;
+    color: #0c4679;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 24px;
+    text-decoration: none;
+    margin-bottom: 0;
+    display: inline-flex;
+}
+.head-main-tel:hover{color:#0c4679;text-decoration:none}
+
+@media (max-width:600px){
+      .head-main-tel {
+        font-size: 14px;
+        border: 1px solid #0c4679;
+        border-radius: 25px;
+        padding: 6px 8px;
+        color: #212121;
+        line-height: 21px;
+    }
+}
+
 .treatment_all_heading_page{margin-bottom:10px;font-size:32px!important;color:#000;font-weight:600}
 @media (max-width:1440px){
 .treatment_all_heading_page{margin-bottom:8px;font-size:30px!important;color:#000;font-weight:600}
-.headerno-cls{font-size:26px;color:#0c4679;margin-bottom:0}
 }
 @media (max-width:1280px){
 .treatment_all_heading_page{margin-bottom:8px;font-size:26px!important;color:#000;font-weight:600}
-.headerno-cls{font-size:24px;color:#0c4679;margin-bottom:0}
 }
 @media (max-width:600px){
 .treatment_all_heading_page{margin-bottom:10px;font-size:22px!important;color:#000;font-weight:600;text-align:left}
@@ -330,7 +350,7 @@ a:hover{text-decoration: none;}
 .testmonilas_form_custom .form-group{margin-bottom:10px}
 .btn_custom_testmonilas{margin-top:0;font-size:16px}
 .form_custom_bg_testmonilas{padding:20px 0;box-shadow:none;margin:auto;width:98%;border-radius:0}
-.form_section_div{margin-top:30px}
+.form_section_div{margin-top:0px}
 .form_colum_custom,.form_custom_bg_testmonilas{width:100%}
 .btn_custom_testmonilas{width:100%;margin-bottom:0;height:calc(1.5em + .75rem + 2px);line-height:1.6;color:#fff;font-weight:500;border:none}
 }
