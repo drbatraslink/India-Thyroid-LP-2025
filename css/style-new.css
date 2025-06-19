@@ -133,7 +133,7 @@ a:hover{text-decoration: none;}
 /*==========================================*/
 /* Blue Icon box section css*/
 /*==========================================*/
-.treatment_all_comm_div.blue_icon_box_section{margin-top:50px}
+.treatment_all_comm_div.blue_icon_box_section{margin-top:40px}
 .treatment_all_comm_div.blue_icon_box_section .container{padding:40px;background-color:#e0f3ff;border-radius:20px}
 .treatment_all_comm_div.blue_icon_box_section .icon_box_why{width:56px;height:56px;padding:10px;margin-right:12px;background-color:#0c4679;border-radius:6px}
 .treatment_all_comm_div.blue_icon_box_section h3{font-size: 24px; color: #212121; font-weight: 600}
@@ -155,7 +155,7 @@ a:hover{text-decoration: none;}
 /*=====================================================================*/
 /* icon with Background section css*/
 /*=====================================================================*/
-.treatment_all_comm_div.icon_with_blue_patch_bg_section{margin-top:50px}
+.treatment_all_comm_div.icon_with_blue_patch_bg_section{margin-top:40px}
 .treatment_all_comm_div.icon_with_blue_patch_bg_section .icon_box_why{width:56px;height:56px;padding:10px;margin-right:12px;background-color:#0c4679;border-radius:6px}
 .treatment_all_comm_div.icon_with_blue_patch_bg_section .content_box_why_pcos p{width:85%;line-height:normal;font-size:18px!important;font-weight:300;line-height:normal;margin-bottom:0}
 .treatment_all_comm_div.icon_with_blue_patch_bg_section .content_box_why_pcos p span{font-size:24px!important;font-weight:600}
@@ -210,7 +210,7 @@ a:hover{text-decoration: none;}
 /*==========================================*/
 /* Lets talk css*/
 /*==========================================*/
-.treatment_all_comm_div.lets_talk_sec{margin-top:50px;background-color:#e0f3ff;padding-top:35px;padding-bottom:35px}
+.treatment_all_comm_div.lets_talk_sec{margin-top:40px;background-color:#e0f3ff;padding-top:35px;padding-bottom:35px}
 .treatment_all_comm_div.lets_talk_sec .talk_about_heading{font-size:42px!important;font-weight:600;color:#000000;margin-bottom:0}
 .treatment_all_comm_div.lets_talk_sec .talk_about_btn{width:100%;margin-bottom:0;line-height:normal;color:#fff;border-radius:50px;font-weight:600;font-size:21px!important;border:none;background-color:#0c4679!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
 .treatment_all_comm_div.lets_talk_sec .talk_about_btn:hover{color:#fff!important}
