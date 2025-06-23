@@ -4,6 +4,7 @@ body{font-family:Inter,sans-serif;font-size:16px;font-weight:400!important;color
 .font-500{font-weight:500!important}
 .form-control{border:1px solid #656565}
 .select2-container{z-index:9999}
+
 .main_lp_div p{font-size:18px;color:#000000; font-weight: 300;}
 @media (max-width:1440px){
 .main_lp_div p{font-size:16px;color:#000000}
@@ -40,48 +41,57 @@ a:hover{text-decoration:none}
 /*==========================================*/
 /* New Banner css*/
 /*==========================================*/
-article h1,aside h1,nav h1,section h1{font-size:42px;font-weight:700;line-height:normal;margin:0;color:#fff}
-body{margin:0;font-family:Arial,sans-serif}
+article h1,aside h1,nav h1,section h1{font-size:42px;font-weight:700;line-height:normal;color:#fff}
 .main_lp_div.banner_new_section{padding:30px 0;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url('../images/banner_bg.webp');background-color:#0c4679;background-size:cover;background-position:center left;background-repeat:no-repeat}
-.main_lp_div.banner_new_section h1{font-size:42px;font-weight:700;line-height:normal;color:#fff;margin-bottom:10px}
-.main_lp_div.banner_new_section h2{font-size:21px;font-weight:400;line-height:normal;color:#fff;margin-bottom:20px}
-.banner_facts{padding-left:0;margin:10px 0;color:#fff;font-size:16px;line-height:normal;text-align:left}
-.banner_facts p{margin-bottom:6px;font-weight:400;color:#fff;position:relative;padding-left:20px}
-.banner_facts p::before{content:'•';color:#fff;position:absolute;left:0;top:0}
-.banner_facts p strong{font-weight:600}
-.google-rating-div-new{margin-top:15px;margin-bottom:10px;display:flex;align-items:center;color:#fff}
-.google-rating-div-new img{width:160px;height:32px}
-.google-rating-div-new span{font-weight:600;font-size:18px;color:#fff;margin-left:8px}
+.main_lp_div.banner_new_section h1{font-size:42px;font-weight:700;line-height:normal;color:#fff}
+.main_lp_div.banner_new_section h2{font-size:21px;font-weight:400;line-height:normal;color:#fff}
+.main_lp_div .talk_about_btn{width:auto;display:inline-block;margin:10px 0 0 0;padding:10px 30px;line-height:normal;color:#0c4679;border-radius:50px;font-weight:600;font-size:18px;text-align:center;border:none;background-color:#fff;box-shadow:0 4px 15px rgba(175,173,173,.18)}
+.main_lp_div .talk_about_btn:hover{color:#1f83c5}
+.banner_list_item_google_rating{list-style:none;padding-inline-start:0;display:flex;align-items:center;margin-bottom:10px;margin-top:15px}
+.banner_list_item_google_rating li{font-size:18px;font-weight:600;color:#fff;padding-right:10px}
+.banner_list_item_google_rating li img{width:178px;max-width:178px}
 .banner_area{max-width:350px;width:350px;float:right;text-align:right}
-.talk_about_btn{width:auto;display:inline-block;margin:10px 0 0 0;padding:10px 30px;line-height:normal;color:#0c4679;border-radius:50px;font-weight:600;font-size:18px;text-align:center;border:none;background-color:#fff;box-shadow:0 4px 15px rgba(175,173,173,.18);text-decoration:none;cursor:pointer}
-.talk_about_btn:hover{color:#1f83c5}
+.offer_section{color:#fff;line-height:normal;font-size:18px;margin-bottom:0;border:1px solid #fff;display:inline-block;padding:10px 20px;font-weight:400;min-height:50px}
+.offer_section span{font-size:45px;font-weight:800;color:#fff}
+.banner_list_newhair{padding:0;margin:0;list-style:disc;line-height:normal;text-align:left;padding-inline-start:25px}
+.banner_list_newhair li{display:list-item;color:#fff;font-weight:400;font-size:16px;position:relative;line-height:normal;margin-bottom:6px}
+.banner_list_newhair li strong{font-weight:600}
+.banner_list_newhair li:first-child{padding-top:8px;padding-left:0}
+.google-rating-div-new{margin-top:15px;margin-bottom:10px;display:flex;align-items:center}
+.google-rating-div-new img{width:160px;height:32px}
+.google-rating-div-new span{font-weight:600;font-size:18px;color:#fff}
 @media (max-width:1440px){
 .main_lp_div.banner_new_section h1{font-size:38px}
-.banner_facts{font-size:14px}
+.banner_list_newhair li{font-size:12px}
 }
 @media (max-width:1200px){
-.banner_facts{font-size:14px}
+.offer_section{font-size:12px}
+.offer_section span{font-size:24px}
+.banner_list_newhair li{font-size:14px}
 }
 @media (max-width:992px){
 .main_lp_div.banner_new_section h1{font-size:32px}
 .main_lp_div.banner_new_section h2{font-size:21px}
-.talk_about_btn{font-size:16px;padding:8px 30px}
+.main_lp_div .talk_about_btn{font-size:16px;padding:8px 30px}
 }
 @media (max-width:768px){
-.banner_facts{text-align:center;padding-left:0;font-size:14px}
-.banner_facts p{display:inline;margin:0 6px 0 0;font-size:14px;line-height:21px;padding-left:0;position:static}
-.banner_facts p::before{content:none}
-.banner_facts p:not(:last-child)::after{content:'•';color:#fff;margin-left:6px}
+.banner_list_newhair{text-align:center;margin-bottom:10px;padding-inline-start:0}
+.banner_list_newhair li{display:inline;font-size:14px}
+.banner_list_newhair li:first-child{padding-top:0;padding-left:0}
+.banner_list_newhair li:not(:last-child)::after{content:'•';margin:0 4px;color:#fff}
 }
 @media (max-width:600px){
 .main_lp_div.banner_new_section{margin-top:55px;padding:30px 0 15px;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url('../images/banner_bg_mob.webp');background-color:#0c4679;background-size:cover;background-position:center;background-repeat:no-repeat;border-radius:0 0 20px 20px}
 .main_lp_div.banner_new_section h1{font-size:28px;text-align:center}
 .main_lp_div.banner_new_section h2{font-size:18px;text-align:center}
-.talk_about_btn{width:80%;display:block;text-align:center;margin:15px auto 20px;font-size:16px}
-.google-rating-div-new{text-align:center;display:block}
-.google-rating-div-new img{width:140px;height:28px;margin:0 auto}
-.google-rating-div-new span{font-size:16px}
+.main_lp_div .talk_about_btn{width:80%;display:block;text-align:center;margin:15px auto 20px;font-size:16px}
+.banner_list_item_google_rating{margin:auto;width:65%}
 .banner_area{float:none;margin:auto;text-align:center;width:100%;max-width:350px}
+.offer_section{font-size:16px;padding:8px 20px;margin-bottom:10px}
+.offer_section span{font-size:26px}
+.google-rating-div-new{text-align:center;display:block}
+.google-rating-div-new img{width:140px;height:28px}
+.google-rating-div-new span{font-size:16px}
 }
 @media (max-width:400px){
 .main_lp_div.banner_new_section h1{font-size:28px}
