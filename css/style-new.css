@@ -40,8 +40,13 @@ a:hover{text-decoration:none}
 /*==========================================*/
 /* New Banner css*/
 /*==========================================*/
+article h1, aside h1, nav h1, section h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+}
 .treatment_all_comm_div.banner_new_section{padding:30px 0;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url('../images/banner_bg.webp');background-color:#0c4679;background-size:cover;background-position:center left;background-repeat:no-repeat}
-.treatment_all_comm_div.banner_new_section h1,article h1,aside h1,nav h1,section h1{font-size:42px;font-weight:700;line-height:normal;color:#fff}
 .treatment_all_comm_div.banner_new_section h2{font-size:21px;font-weight:400;line-height:normal;color:#fff}
 .treatment_all_comm_div .talk_about_btn{width:auto;display:inline-block;margin:10px 0 0 0;padding:10px 30px;line-height:normal;color:#0c4679;border-radius:50px;font-weight:600;font-size:18px;text-align:center;border:none;background-color:#fff;box-shadow:0 4px 15px rgba(175,173,173,.18)}
 .treatment_all_comm_div .talk_about_btn:hover{color:#1f83c5}
